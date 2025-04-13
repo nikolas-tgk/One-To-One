@@ -57,11 +57,11 @@ def main():
     only_in_following = following_set - followers_set
     only_in_followers = followers_set - following_set
 
-    print("\n--- Unique values in 'following.json' but not in '"+FOLLOWING_FILE_NAME+"' --- \n")
+    print("\n--- Unique values in '"+FOLLOWING_FILE_NAME+"' but not in '"+FOLLOWERS_FILE_NAME+"' --- \n")
     for username in only_in_following:
         print(username)
 
-    print("\n--- Unique values in 'followers.json' but not in '"+FOLLOWERS_FILE_NAME+"' --- \n")
+    print("\n--- Unique values in '"+FOLLOWERS_FILE_NAME+"' but not in '"+FOLLOWING_FILE_NAME+"' --- \n")
     for username in only_in_followers:
         print(username)
     input("Press Enter to exit.")
