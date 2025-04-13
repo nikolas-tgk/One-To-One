@@ -3,10 +3,12 @@
 ## Instagram followers vs following comparator.
 So people won't use sketchy 3rd party apps! :,)
 
+![onetoonescreenprod](https://github.com/user-attachments/assets/f3be1fb4-1606-4f9d-afc5-bc2a3a25edc1)
+
 ## Files Required
 
 To use this script, you’ll need to download two specific files from your [Instagram Accounts Center](https://accountscenter.instagram.com/info_and_permissions/dyi/):
-You can either request all your data or "some of your data", in the latter case make sure to select:
+You can either request all your data or "some of your data", in the latter case you may select:
 1. **Followers and Following**
 
 
@@ -32,3 +34,8 @@ FULL_PATH_FOLLOWING = "ENTER_FULL_PATH/following.json"
 FULL_PATH_FOLLOWERS = "ENTER_FULL_PATH/followers_1.json"
 
 # Notice: Use full paths if you're getting a FileNotFoundError (e.g. VSCode not running the script from the actual script location).
+```
+
+##  Executable Instructions
+
+For non tech savvies. Files must be named: "following.json" and "followers_1.json" and put together in the same folder as main.exe
